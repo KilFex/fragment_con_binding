@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#FFFFFF"
+    android:id="@+id/f_home"
     android:theme="@style/ThemeOverlay.Practicando_fragments.FullscreenContainer"
     tools:context=".home">
 
@@ -57,7 +58,6 @@
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingEnd="30dp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -74,7 +74,7 @@
                         android:layout_height="wrap_content"
                         android:text="hola, tienes"
                         android:layout_marginStart="20dp"
-                        android:paddingEnd="80dp"/>
+                        android:paddingEnd="60dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -122,7 +122,7 @@
                         android:layout_height="wrap_content"
                         android:text="Dias de racha"
                         android:layout_marginStart="20dp"
-                        android:paddingEnd="80dp"/>
+                        android:paddingEnd="60dp"/>
 
                 </LinearLayout>
 
