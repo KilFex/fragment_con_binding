@@ -17,7 +17,7 @@ import com.elmodevs.practicando_fragments.databinding.FragmentHomeBinding
  * status bar and navigation/system bar) with user interaction.
  */
 class home : Fragment() {
-    private val hideHandler = Handler(Looper.myLooper()!!)
+    /*private val hideHandler = Handler(Looper.myLooper()!!)
 
     @Suppress("InlinedApi")
     private val hidePart2Runnable = Runnable {
@@ -183,5 +183,5 @@ class home : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
-    }
+    }*/
 }

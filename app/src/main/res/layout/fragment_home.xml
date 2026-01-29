@@ -133,6 +133,7 @@
     </LinearLayout>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/ly_card_points"
@@ -147,5 +148,67 @@
             android:textAlignment="center"
             android:text="Cuidar tu salud hoy es el primer paso para vivir  con tranquilidad mañana; cada pequeño hábito cuenta, y tener el control de tu bienestar te permite disfrutar más la vida, con confianza, equilibrio y paz."/>
     </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:id="@+id/tv_classExplorer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXPLORAR CLASES"
+        app:layout_constraintTop_toBottomOf="@+id/card_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <HorizontalScrollView
+        android:id="@+id/Hv_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tv_classExplorer"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aleatorios"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="12dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recientes"
+                android:layout_margin="12dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Populares"
+                android:layout_margin="12dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gratis"
+                android:layout_margin="12dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Completadas"
+                android:layout_margin="12dp"/>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
